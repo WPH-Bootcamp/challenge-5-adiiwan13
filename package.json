@@ -1,0 +1,24 @@
+{
+  "name": "challenge-5-adiiwan13",
+  "version": "1.0.0",
+  "description": "Assignment 5: To-Do App dengan Class, Async, dan DOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WPH-Bootcamp/challenge-5-adiiwan13.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WPH-Bootcamp/challenge-5-adiiwan13/issues"
+  },
+  "homepage": "https://github.com/WPH-Bootcamp/challenge-5-adiiwan13#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
