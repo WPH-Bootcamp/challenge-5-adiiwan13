@@ -4,9 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/output.css" />
-    <title>Challenge 5</title>
+    <title>
+      Assignment 5: To-Do App dengan Class, Async, dan DOM (atau CLI)
+    </title>
   </head>
-  <body class="bg-slate-100 flex items-center justify-center h-screen">
-    <hi class="text-3xl font-bold text-red-500">Assignment-5</hi>
+  <body>
+    <div id="app">
+      <h1>My To-Do List</h1>
+      <form id="todoForm">
+        <input
+          type="text"
+          id="todoInput"
+          placeholder="Tambah Tugas Baru"
+          required
+          class="border border-gray-300 px-3 py-2 rounded mr-2 flex-1 focus:outline-none focus:ring-1 focus:ring-blue-500"
+        />
+        <button
+          type="submit"
+          class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
+        >
+          Tambah
+        </button>
+      </form>
+
+      <ul id="todo-list"></ul>
+    </div>
+    <script src="./src/main.js"></script>
   </body>
 </html>

@@ -4,7 +4,8 @@
   "description": "Assignment 5: To-Do App dengan Class, Async, dan DOM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/assets/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
