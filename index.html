@@ -4,31 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/output.css" />
-    <title>
-      Assignment 5: To-Do App dengan Class, Async, dan DOM (atau CLI)
-    </title>
+    <title>Assignment 5: To-Do App dengan Class, Async, dan DOM</title>
   </head>
-  <body>
-    <div id="app">
-      <h1>My To-Do List</h1>
-      <form id="todoForm">
+  <body class="bg-gray-50 min-h-screen flex items-center justify-center p-4">
+    <div id="app" class="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
+      <h1 class="text-2xl font-bold text-gray-800 mb-4 text-center">
+        My To-Do List
+      </h1>
+
+      <form id="todoForm" class="flex mb-2">
         <input
           type="text"
           id="todoInput"
           placeholder="Tambah Tugas Baru"
-          required
-          class="border border-gray-300 px-3 py-2 rounded mr-2 flex-1 focus:outline-none focus:ring-1 focus:ring-blue-500"
+          class="border border-gray-300 px-3 py-2 rounded mr-2 flex-1 focus:outline-none focus:ring-1 focus:ring-blue-500 text-gray-800"
         />
         <button
           type="submit"
-          class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
+          class="bg-blue-500 hover:bg-blue-900 text-white px-4 py-2 rounded font-medium transition disabled:bg-blue-300 disabled:cursor-not-allowed"
         >
           Tambah
         </button>
       </form>
 
-      <ul id="todo-list"></ul>
+      <ul id="todoList" class="mt-4 max-h-96 overflow-y-auto"></ul>
     </div>
+
     <script src="./src/main.js"></script>
   </body>
 </html>
