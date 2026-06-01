@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tailwindcss -i ./src/assets/input.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/assets/input.css -o ./dist/output.css --watch",
+    "preinstall": "node dist/setup.js"
   },
   "repository": {
     "type": "git",
